@@ -62,7 +62,7 @@ UKF::UKF() {
     // initial state vector
     x_ = VectorXd(n_x_);
 
-     // initial covariance matrix
+    // initial covariance matrix
     P_ = MatrixXd(n_x_, n_x_);
 
     // Process noise standard deviation longitudinal acceleration in m/s^2
